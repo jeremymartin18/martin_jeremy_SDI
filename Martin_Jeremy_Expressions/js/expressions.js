@@ -80,7 +80,11 @@ alert(name + ", you earned $" + regularPay + " for your regular hours, $" + over
 totalPay *= 1.2;
 
 //Output new base pay to console
-console.log("The total paycheck after the bonus is $" + raise);
+console.log("The total paycheck after the bonus is $" + totalPay);
 
 //Output the total pay if user were to receive their sales incentive bonus as an alert.
 alert(name + ", if you were to receive your sales incentive bonus then your paycheck would be $" + totalPay + ".");
+
+/*
+First run of final code inputs: Jeremy, 10, 41, 42, 3, 8. The output totaled 83 hours, split them up to 72 regular, 3 overtime, and 8 holiday. Regular pay was $720, overtime pay was $45, and holiday pay was $200 for a total paycheck of $965. With the sales incentive added the total paycheck came to $1158. All of the totals were checked on a calculator to be correct.
+ */

@@ -23,7 +23,7 @@ var thisWeek = prompt("How many hours did you work this week?");
 hoursWorked = Number(lastWeek) + Number(thisWeek);
 
 //Output total hours worked to the console
-console.log(hoursWorked);
+console.log("The total number of hours worked are " + hoursWorked);
 
 //Ask the user how many hours of overtime were worked.
 var overtime = prompt("How many hours of overtime did you work over the past 2 weeks?");
@@ -32,13 +32,13 @@ var overtime = prompt("How many hours of overtime did you work over the past 2 w
 overtimeRate = basePay * payRate[0];
 
 //Output the rate of overtime pay to the console
-console.log(overtimeRate);
+console.log("The overtime pay rate is $" + overtimeRate);
 
 //Calculate extra pay for overtime hours
 overtimePay = overtimeRate * overtime;
 
 //Output the overtime pay to the console
-console.log(overtimePay);
+console.log("The total amount of overtime pay is $" + overtimePay);
 
 //Ask the user how many hours worked during a holiday.
 var holiday = prompt("How many hours did you work during a holiday over the past 2 weeks?");
@@ -47,43 +47,43 @@ var holiday = prompt("How many hours did you work during a holiday over the past
 holidayRate = basePay * payRate[1];
 
 //Output the rate of holiday pay to the console
-console.log(holidayRate);
+console.log("The holiday pay rate is $" + holidayRate);
 
 //Calculate extra pay for holiday hours
 holidayPay = holidayRate * holiday;
 
 //Output the holiday pay to the console
-console.log(holidayPay);
+console.log("The total amount of holiday pay is $" + holidayPay);
 
 //Calculate the total regular hours worked
 var regular = hoursWorked - overtime - holiday;
 
 //Output the total regular hours worked to the console
-console.log(regular);
+console.log("The total amount of regular hours worked is " + regular);
 
 //Calculate the total pay for regular hours
 var regularPay = regular * basePay;
 
 //Output the total pay for regular hours to the console
-console.log(regularPay);
+console.log("The total amount of regular pay is $" + regularPay);
 
 //Calculate the total pay for the user
 var totalPay = regularPay + overtimePay + holidayPay;
 
 //Output a breakdown of all of the hours worked by this user as an alert.
-alert(name + " you worked a total of " + hoursWorked + " hours over the past 2 weeks.\n" + regular + " were regular hours, " + overtime + " were overtime hours, and " + holiday + " were holiday hours.");
+alert(name + ", you worked a total of " + hoursWorked + " hours over the past 2 weeks.\n" + regular + " were regular hours, " + overtime + " were overtime hours, and " + holiday + " were holiday hours.");
 
 //Output a breakdown of the users next paycheck as an alert.
-alert(name + " you earned $" + regularPay + " for your regular hours, $" + overtimePay + " for your overtime hours, and $" + holidayPay + " for your holiday hours. Your next paycheck will be $" +totalPay + ".")
+alert(name + ", you earned $" + regularPay + " for your regular hours, $" + overtimePay + " for your overtime hours, and $" + holidayPay + " for your holiday hours. Your next paycheck will be $" +totalPay + ".")
 
 //Calculate the rate of pay if user received a $1 increase in pay
 var raise = basePay ++;
 
 //Output new base pay to console
-console.log(raise);
+console.log("The base pay after the pay rase is $" + raise);
 
 //Calculate paycheck based on raise
 var newTotalPay = regular * raise + overtime * raise * 1.5 + holiday * raise * 2.5;
 
 //Output the total pay if user were to receive a $1 raise as an alert
-alert(name + " if you were to receive a $1 raise then your paycheck would be $" + newTotalPay + ".");
+alert(name + ", if you were to receive a $1 raise then your paycheck would be $" + newTotalPay + ".");

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f96cced1-ea39-4552-ac73-7bd5d5e2a18e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Martin_Jeremy_Expressions/js/expressions.js" afterPath="$PROJECT_DIR$/Martin_Jeremy_Expressions/js/expressions.js" />
-    </list>
+    <list default="true" id="f96cced1-ea39-4552-ac73-7bd5d5e2a18e" name="Default" comment="" />
     <ignored path="martin_jeremy_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

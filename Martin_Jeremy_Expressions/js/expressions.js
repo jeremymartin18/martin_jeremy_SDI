@@ -83,7 +83,7 @@ var raise = basePay ++;
 console.log(raise);
 
 //Calculate paycheck based on raise
-var newTotalPay = regular * raise + overtime * raise * .5 + holiday * raise * 1.5;
+var newTotalPay = regular * raise + overtime * raise * 1.5 + holiday * raise * 2.5;
 
 //Output the total pay if user were to receive a $1 raise as an alert
 alert(name + " if you were to receive a $1 raise then your paycheck would be $" + newTotalPay + ".");

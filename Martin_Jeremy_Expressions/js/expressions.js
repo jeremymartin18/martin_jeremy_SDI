@@ -70,3 +70,20 @@ console.log(regularPay);
 //Calculate the total pay for the user
 var totalPay = regularPay + overtimePay + holidayPay;
 
+//Output a breakdown of all of the hours worked by this user as an alert.
+alert(name + " you worked a total of " + hoursWorked + " hours over the past 2 weeks.\n" + regular + " were regular hours, " + overtime + " were overtime hours, and " + holiday + " were holiday hours.");
+
+//Output a breakdown of the users next paycheck as an alert.
+alert(name + " you earned $" + regularPay + " for your regular hours, $" + overtimePay + " for your overtime hours, and $" + holidayPay + " for your holiday hours. Your next paycheck will be $" +totalPay + ".")
+
+//Calculate the rate of pay if user received a $1 increase in pay
+var raise = basePay ++;
+
+//Output new base pay to console
+console.log(raise);
+
+//Calculate paycheck based on raise
+var newTotalPay = regular * raise + overtime * raise * .5 + holiday * raise * 1.5;
+
+//Output the total pay if user were to receive a $1 raise as an alert
+alert(name + " if you were to receive a $1 raise then your paycheck would be $" + newTotalPay + ".");

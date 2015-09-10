@@ -74,16 +74,13 @@ var totalPay = regularPay + overtimePay + holidayPay;
 alert(name + ", you worked a total of " + hoursWorked + " hours over the past 2 weeks.\n" + regular + " were regular hours, " + overtime + " were overtime hours, and " + holiday + " were holiday hours.");
 
 //Output a breakdown of the users next paycheck as an alert.
-alert(name + ", you earned $" + regularPay + " for your regular hours, $" + overtimePay + " for your overtime hours, and $" + holidayPay + " for your holiday hours. Your next paycheck will be $" +totalPay + ".")
+alert(name + ", you earned $" + regularPay + " for your regular hours, $" + overtimePay + " for your overtime hours, and $" + holidayPay + " for your holiday hours. Your next paycheck will be $" + totalPay + ".");
 
-//Calculate the rate of pay if user received a $1 increase in pay
-var raise = basePay ++;
+//Calculate the rate of pay if user received their sales incentive bonus
+totalPay *= 1.2;
 
 //Output new base pay to console
-console.log("The base pay after the pay rase is $" + raise);
+console.log("The total paycheck after the bonus is $" + raise);
 
-//Calculate paycheck based on raise
-var newTotalPay = regular * raise + overtime * raise * 1.5 + holiday * raise * 2.5;
-
-//Output the total pay if user were to receive a $1 raise as an alert
-alert(name + ", if you were to receive a $1 raise then your paycheck would be $" + newTotalPay + ".");
+//Output the total pay if user were to receive their sales incentive bonus as an alert.
+alert(name + ", if you were to receive your sales incentive bonus then your paycheck would be $" + totalPay + ".");

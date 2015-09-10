@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96cced1-ea39-4552-ac73-7bd5d5e2a18e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Worksheet/js/DogYears.js" afterPath="$PROJECT_DIR$/Expressions_Worksheet/js/DogYears.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Worksheet/SliceOfPie1.html" afterPath="$PROJECT_DIR$/Expressions_Worksheet/SliceOfPie1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie1.js" afterPath="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js" afterPath="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js" />
     </list>
     <ignored path="martin_jeremy_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,6 +30,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.0">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SliceOfPie1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.222222">
+              <caret line="22" column="86" selection-start-line="7" selection-start-column="1" selection-end-line="22" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SliceOfPie2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5022831">
+              <caret line="22" column="88" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -93,31 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Discounts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/Discounts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DogYears.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DogYears.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/DogYears.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34246576">
+            <state vertical-scroll-proportion="-8.333333">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SliceOfPie2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -144,16 +146,16 @@
         <option value="$PROJECT_DIR$/Expressions/js/expressions.js" />
         <option value="$PROJECT_DIR$/Expressions/expressions.html" />
         <option value="$PROJECT_DIR$/Martin_Jeremy_Expressions/expressions.html" />
-        <option value="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js" />
-        <option value="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie1.js" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/js/Discounts.js" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/js/AverageShoppingBill.js" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/SliceOfPie2.html" />
-        <option value="$PROJECT_DIR$/Expressions_Worksheet/SliceOfPie1.html" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/DogYears.html" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/Discounts.html" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/AverageShoppingBill.html" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/js/DogYears.js" />
+        <option value="$PROJECT_DIR$/Expressions_Worksheet/SliceOfPie1.html" />
+        <option value="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie1.js" />
+        <option value="$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js" />
       </list>
     </option>
   </component>
@@ -373,22 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/Discounts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2222223">
@@ -421,14 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/SliceOfPie1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/Discounts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
@@ -455,8 +433,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/DogYears.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34246576">
+        <state vertical-scroll-proportion="-8.333333">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/SliceOfPie1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.222222">
+          <caret line="22" column="86" selection-start-line="7" selection-start-column="1" selection-end-line="22" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Worksheet/js/SliceOfPie2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5022831">
+          <caret line="22" column="88" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
           <folding />
         </state>
       </provider>

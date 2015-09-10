@@ -4,8 +4,11 @@ Expressions Assignment
 09-08-2015
  */
 
-//Define variables for pay calculation
+//Declare and define variables for pay calculation
 var payRate = [1.5, 2.5];
+
+//Declare and define variable for bonus calculation
+var bonus = 1.2;
 
 //Welcome the user and prompt for their name.
 var name = prompt("Welcome to the Payroll Calculator.\nPlease enter your name.");
@@ -77,7 +80,7 @@ alert(name + ", you worked a total of " + hoursWorked + " hours over the past 2 
 alert(name + ", you earned $" + regularPay + " for your regular hours, $" + overtimePay + " for your overtime hours, and $" + holidayPay + " for your holiday hours. Your next paycheck will be $" + totalPay + ".");
 
 //Calculate the rate of pay if user received their sales incentive bonus
-totalPay *= 1.2;
+totalPay *= bonus;
 
 //Output new base pay to console
 console.log("The total paycheck after the bonus is $" + totalPay);

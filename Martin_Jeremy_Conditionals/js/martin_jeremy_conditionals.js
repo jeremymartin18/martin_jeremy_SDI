@@ -7,3 +7,11 @@ Conditionals Assignment
 
  //alert("this is a test to see if connected");
 
+/*
+Meat Temperature Calculator
+
+Ground Beef 160
+Fresh Beef 145
+Poultry 165
+Fish 145 OR clear flesh
+ */

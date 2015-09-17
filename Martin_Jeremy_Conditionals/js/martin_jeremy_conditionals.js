@@ -25,16 +25,32 @@ Fish 145 OR clear flesh
      prompt("Please do not leave this blank.\nWhat type of meat are you cooking? \n ground beef, fresh beef, poultry, or fish");
  }
 
+ //display variable in console
+ console.log(" The meat type is " + meatType);
+
  //Ask the user what temperature the meat is currently at.
  var currentTemp = prompt("Please enter the current temperature of the meat.");
 
  //Test to ensure the entered value is a number
  if(isNaN(currentTemp)){
      //Reprompt the user to enter the temperature the meat is currently at.
-     currentTemp = prompt("Please do not leave this blank.\nPlease enter the current temperature of the meat.");
+     currentTemp = prompt("Please only enter a number.\nPlease enter the current temperature of the meat.");
  }
 
- //Promp user if flesh color of fish is clear or not
+ //display variable in console
+ console.log("The current temp of the meat is " + currentTemp);
+
+ //Prompt user if flesh color of fish is clear or not
  if(meatType === "fish"){
      var fishFlesh = prompt("Is the color of the flesh clear? (yes or no)");
+
+     //Reprompt user to enter yes or not for answer.
+     if(fishFlesh === !("yes") || !("no")){
+         fishFlesh = prompt("Please only enter 'yes' or 'no'. \nIs the color of the flesh clear? (yes or no)");
+     }
  }
+
+ //display the variable in console
+ console.log("The color of the fish flesh is " + fishFlesh);
+
+ 

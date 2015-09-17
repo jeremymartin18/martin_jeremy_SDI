@@ -28,4 +28,13 @@ Fish 145 OR clear flesh
  //Ask the user what temperature the meat is currently at.
  var currentTemp = prompt("Please enter the current temperature of the meat.");
 
- //test to ensure the entered value is a number
+ //Test to ensure the entered value is a number
+ if(isNaN(currentTemp)){
+     //Reprompt the user to enter the temperature the meat is currently at.
+     currentTemp = prompt("Please do not leave this blank.\nPlease enter the current temperature of the meat.");
+ }
+
+ //Promp user if flesh color of fish is clear or not
+ if(meatType === "fish"){
+     var fishFlesh = prompt("Is the color of the flesh clear? (yes or no)");
+ }

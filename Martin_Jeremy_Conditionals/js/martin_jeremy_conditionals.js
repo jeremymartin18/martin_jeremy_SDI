@@ -82,13 +82,34 @@ Carpet price calculator
  var totalDiscount = (discount1 + discount2) / 100 * regPrice;
 
  //Output the value of the variable 'totalDiscount' to the console
- console.log("The total discount received is " +totalDiscount + "%");
+ console.log("The total discount received is $" +totalDiscount + " per sq. ft.");
 
  //Calculate what the price will be after the discount
  var discountPrice = regPrice - totalDiscount;
 
+ //Output the value of the variable 'discountPrice' to the console
+ console.log("The discounted price per sq. ft. is $" + discountPrice);
+
  //Calculate the price of carpert needed for the room after the discount
  var totalPrice = discountPrice * totalSqFt;
 
+ //Output the value of the variable 'totalPrice' to the console
+ console.log("The total price of the carpet is $" +totalPrice);
+
  //Alert the user what discounts they received, what their total discount was, and what the total price is.
  alert("You received a discount of " + discount1 + "% for the size of the room.\n You also recieved a discount of " + discount2 + "% for paying with " + methodOfPayment + ".\nYour total discount is " + totalDiscount + "%.\nThe total price for " + totalSqFt + " sq. ft. of carpet after your discount is $" + totalPrice + ".");
+
+ /*
+ Tested with input of 10 for length and width, .05 for price and cash as payment... output was
+
+  The length of the room is 10 sq. ft.
+  The width of the room is 10 sq. ft.
+  The regular price per square foot of the carpet is $.05
+  The method of payment is cash
+  The total square footage of the room is 100 sq. ft.
+  Based on the size of the room the discount will be 5%
+  Based on your method of payment the discount will be 10%
+  The total discount received is $0.0075 per sq. ft.
+  The discounted price per sq. ft. is $0.0425
+  The total price of the carpet is $4.25
+  */

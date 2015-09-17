@@ -23,6 +23,7 @@ Carpet price calculator
      //output the value of the variable "length" to the console.
      console.log("The length of the room is " + length + " sq. ft.");
  }else{
+     //output the value of the variable "length" to the console.
      console.log("The length of the room is " + length + " sq. ft.");
  }
 
@@ -38,6 +39,7 @@ Carpet price calculator
      //Output the value of the variable 'width' to the console
      console.log("The width of the room is " + width + " sq. ft.");
  }else{
+     //Output the value of the variable 'width' to the console
      console.log("The width of the room is " + width + " sq. ft.");
  }
 
@@ -53,6 +55,7 @@ Carpet price calculator
      //output the value of the variable "regPrice" to the console.
      console.log("The regular price per square foot of the carpet is $" + regPrice);
  }else{
+     //output the value of the variable "regPrice" to the console.
      console.log("The regular price per square foot of the carpet is $" + regPrice);
  }
 
@@ -60,7 +63,7 @@ Carpet price calculator
  var methodOfPayment = prompt("What method of payment will you be using? (cash or credit)");
 
  //Validate that the user entered either "cash" or "credit". Otherwise output the value of the variable "methodOfPayment" to the console.
- if(methodOfPayment === !("cash") || methodOfPayment === !("credit")){
+ if(methodOfPayment !== "cash" || methodOfPayment !== "credit"){
      //Output error message to console
      console.log("You did not enter the method of payment properly!");
      //Reprompt user for method of payment
@@ -68,6 +71,7 @@ Carpet price calculator
      //Output the value of the variable "methodOfPayment" to the console.
      console.log("The method of payment is " + methodOfPayment);
  }else{
+     //Output the value of the variable "methodOfPayment" to the console.
      console.log("The method of payment is " + methodOfPayment);
  }
 
@@ -79,11 +83,15 @@ Carpet price calculator
 
  //Determine the discount based on the size of the room
  if(totalSqFt > 500){
-    var discount1 = 30;
+     //Set discount to 30% if size of room is greater than 500 sq.ft.
+     var discount1 = 30;
+ //Test the next option to determine the discount based on the size of the room
  }else if(totalSqFt > 250){
-    discount1 = 15;
+     //Set the discount to 15% if the size of the room is greater than 250 sq.ft. but less than 500.
+     discount1 = 15;
+ //Set the discount to 5% if the size of the room is less than 250 sq.ft.
  }else{
-    discount1 = 5;
+     discount1 = 5;
  }
 
  //Output the discount to the console
@@ -117,7 +125,7 @@ Carpet price calculator
  console.log("The total price of the carpet is $" +totalPrice);
 
  //Alert the user what discounts they received, what their total discount was, and what the total price is.
- alert("You received a discount of " + discount1 + "% for the size of the room.\n You also recieved a discount of " + discount2 + "% for paying with " + methodOfPayment + ".\nYour total discount is " + totalDiscount + "%.\nThe total price for " + totalSqFt + " sq. ft. of carpet after your discount is $" + totalPrice + ".");
+ alert("You received a discount of " + discount1 + "% for the size of the room.\n You also recieved a discount of " + discount2 + "% for paying with " + methodOfPayment + ".\nYour total discount is $" + totalDiscount + ".\nThe total price for " + totalSqFt + " sq. ft. of carpet after your discount is $" + totalPrice + ".");
 
  /*
  Tested with input of 10 for length and width, .05 for price and cash as payment... output was
@@ -132,4 +140,25 @@ Carpet price calculator
   The total discount received is $0.0075 per sq. ft.
   The discounted price per sq. ft. is $0.0425
   The total price of the carpet is $4.25
+  */
+
+ /*
+ Second test to test validation, I initially input 'hh' for all of the prompts to ensure that console messages appeared properly. I then entered 25 for length and width, 1.25 for price, and credit for payment method. below is the output in the console
+
+  You did not enter the length properly!
+  The length of the room is 25 sq. ft.
+  You did not enter the width properly!
+  The width of the room is 25 sq. ft.
+  You did not enter the price properly!
+  The regular price per square foot of the carpet is $1.25
+  You did not enter the method of payment properly!
+  The method of payment is credit
+  The total square footage of the room is 625 sq. ft.
+  Based on the size of the room the discount will be 30%
+  Based on your method of payment the discount will be 5%
+  The total discount received is $0.4375 per sq. ft.
+  The discounted price per sq. ft. is $0.8125
+  The total price of the carpet is $507.8125
+
+  All calculations and messages are working as designed.
   */

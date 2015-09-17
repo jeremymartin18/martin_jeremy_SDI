@@ -16,10 +16,12 @@ Carpet price calculator
 
  //Validate that the value entered is a number and the prompt is not left blank. Otherwise output the value of the variable "length" to the console.
  if(isNaN(length) || length === ""){
-     length = prompt("Please only enter a number and do not leave blank.\nWhat is the length in feet of the room to be carpeted?");
-
      //Output error message to console
      console.log("You did not enter the length properly!");
+     //Reprompt user for length
+     length = prompt("Please only enter a number and do not leave blank.\nWhat is the length in feet of the room to be carpeted?");
+     //output the value of the variable "length" to the console.
+     console.log("The length of the room is " + length + " sq. ft.");
  }else{
      console.log("The length of the room is " + length + " sq. ft.");
  }
@@ -29,10 +31,12 @@ Carpet price calculator
 
  //Validate that the value entered is a number and the prompt is not left blank. Otherwise output the value of the variable "width" to the console.
  if(isNaN(width) || width === ""){
-     width = prompt("Please only enter a number and do not leave blank.\nWhat is the width in feet of the room to be carpeted?");
-
      //Output error message to console
      console.log("You did not enter the width properly!");
+     //Reprompt user for width
+     width = prompt("Please only enter a number and do not leave blank.\nWhat is the width in feet of the room to be carpeted?");
+     //Output the value of the variable 'width' to the console
+     console.log("The width of the room is " + width + " sq. ft.");
  }else{
      console.log("The width of the room is " + width + " sq. ft.");
  }
@@ -42,10 +46,12 @@ Carpet price calculator
 
  //Validate that the value entered is a numberand the prompt is not left blank. Otherwise output the value of the variable "regPrice" to the console.
  if(isNaN(regPrice) || regPrice === ""){
-     regPrice = prompt("Please only enter a number and do not leave blank.\nWhat is the regular price per square foot of the carpet?");
-
      //Output error message to console
      console.log("You did not enter the price properly!");
+     //Reprompt user for price
+     regPrice = prompt("Please only enter a number and do not leave blank.\nWhat is the regular price per square foot of the carpet?");
+     //output the value of the variable "regPrice" to the console.
+     console.log("The regular price per square foot of the carpet is $" + regPrice);
  }else{
      console.log("The regular price per square foot of the carpet is $" + regPrice);
  }
@@ -55,10 +61,12 @@ Carpet price calculator
 
  //Validate that the user entered either "cash" or "credit". Otherwise output the value of the variable "methodOfPayment" to the console.
  if(methodOfPayment === !("cash") || methodOfPayment === !("credit")){
-     methodOfPayment = prompt("Please enter either 'cash' or 'credit' as your method of payment");
-
      //Output error message to console
      console.log("You did not enter the method of payment properly!");
+     //Reprompt user for method of payment
+     methodOfPayment = prompt("Please enter either 'cash' or 'credit' as your method of payment");
+     //Output the value of the variable "methodOfPayment" to the console.
+     console.log("The method of payment is " + methodOfPayment);
  }else{
      console.log("The method of payment is " + methodOfPayment);
  }

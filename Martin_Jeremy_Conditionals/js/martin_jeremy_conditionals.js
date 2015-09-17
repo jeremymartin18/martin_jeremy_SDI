@@ -59,11 +59,36 @@ Carpet price calculator
 
  //Determine the discount based on the size of the room
  if(totalSqFt > 500){
-
+    var discount1 = 30;
  }else if(totalSqFt > 250){
-
+    discount1 = 15;
  }else{
-
+    discount1 = 5;
  }
 
+ //Output the discount to the console
+ console.log("Based on the size of the room the discount will be " + discount1 + "%");
+
+ //Setup a variable for the second discount
+ var discount2;
+
  //Determine the discount based on the method of payment
+ (methodOfPayment === "cash") ? discount2 = 10 : discount2 = 5;
+
+ //Output the second discount to the console
+ console.log("Based on your method of payment the discount will be " + discount2 + "%");
+
+ //Calculate what the total discount will be
+ var totalDiscount = (discount1 + discount2) / 100 * regPrice;
+
+ //Output the value of the variable 'totalDiscount' to the console
+ console.log("The total discount received is " +totalDiscount + "%");
+
+ //Calculate what the price will be after the discount
+ var discountPrice = regPrice - totalDiscount;
+
+ //Calculate the price of carpert needed for the room after the discount
+ var totalPrice = discountPrice * totalSqFt;
+
+ //Alert the user what discounts they received, what their total discount was, and what the total price is.
+ alert("You received a discount of " + discount1 + "% for the size of the room.\n You also recieved a discount of " + discount2 + "% for paying with " + methodOfPayment + ".\nYour total discount is " + totalDiscount + "%.\nThe total price for " + totalSqFt + " sq. ft. of carpet after your discount is $" + totalPrice + ".");

@@ -30,8 +30,43 @@ Functions Assignment - Pool Volume/Gallons Calculator
  //Declare and define a variable to prompt the user for the width of the pool
  var width = prompt("What is the width of the pool rounded to the nearest foot?");
 
+ //Validate that the user did not leave the prompt blank and that the input is a number
+ while(width === "" || isNaN(width)){
+
+     //Test if prompt is left blank
+     if(width === ""){
+
+         //Reprompt the user and remind them to not leave it blank
+         width = prompt("Please do not leave this blank.\nWhat is the width of the pool rounded to the nearest foot?");
+
+         //Test if prompt is not a number
+     }else if(isNaN(width)){
+
+         //Reprompt the user and remind them to only enter a number.
+         width = prompt("Please only enter a number.\nWhat is the width of the pool rounded to the nearest foot?");
+     }
+ }
+
+
  //Declare and define a variable to prompt the user for the average depth of the pool
  var depth = prompt("What is the average depth of the pool rounded to the nearest foot?");
+
+ //Validate that the user did not leave the prompt blank and that the input is a number
+ while(depth === "" || isNaN(depth)){
+
+     //Test if prompt is left blank
+     if(depth === ""){
+
+         //Reprompt the user and remind them to not leave it blank
+         depth = prompt("Please do not leave this blank.\nWhat is the depth of the pool rounded to the nearest foot?");
+
+         //Test if prompt is not a number
+     }else if(isNaN(depth)){
+
+         //Reprompt the user and remind them to only enter a number.
+         depth = prompt("Please only enter a number.\nWhat is the depth of the pool rounded to the nearest foot?");
+     }
+ }
 
  //Declare a variable that will call the function to action and store the output of the variable.
  //Will use the input from the user for the variables length, width, and depth as the arguments

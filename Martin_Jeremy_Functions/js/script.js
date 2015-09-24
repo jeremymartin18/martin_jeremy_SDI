@@ -100,3 +100,23 @@ Functions Assignment - Pool Volume/Gallons Calculator
 
  //Output to the user what the total number of gallons needed to fill the pool.
  console.log("The total number of gallons of water needed to fill the pool is " + totalGallons + ".")
+
+ /*
+ 
+ ****************************************Test Results**************************************************
+
+  I input 10 as the length, width, and depth
+  here are the console.logs that were output
+
+  The volume of the pool in cubic feet is 1000 cubic feet.
+  Now let's figure out how many gallons of water is needed to fill that.
+  The total number of gallons of water needed to fill the pool is 7500.
+
+  I input 3, 5, 5 for the variables,
+  here are the console.logs that were output
+
+  The volume of the pool in cubic feet is 75 cubic feet.
+  Now let's figure out how many gallons of water is needed to fill that.
+  The total number of gallons of water needed to fill the pool is 562.5.
+
+  */

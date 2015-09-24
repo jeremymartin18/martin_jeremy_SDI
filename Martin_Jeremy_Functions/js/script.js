@@ -10,6 +10,23 @@ Functions Assignment - Pool Volume/Gallons Calculator
  //Declare and define a variable to prompt the user for the length of the pool
  var length = prompt("Lets find out how many gallons of water a pool will hold.\nWhat is the length of the pool rounded to the nearest foot?");
 
+ //Validate that the user did not leave the prompt blank and that the input is a number
+ while(length === "" || isNaN(length)){
+
+     //Test if prompt is left blank
+     if(length === ""){
+
+         //Reprompt the user and remind them to not leave it blank
+         length = prompt("Please do not leave this blank.\nWhat is the length of the pool rounded to the nearest foot?");
+
+         //Test if prompt is not a number
+     }else if(isNaN(length)){
+
+         //Reprompt the user and remind them to only enter a number.
+         length = prompt("Please only enter a number.\nWhat is the length of the pool rounded to the nearest foot?");
+     }
+ }
+
  //Declare and define a variable to prompt the user for the width of the pool
  var width = prompt("What is the width of the pool rounded to the nearest foot?");
 
